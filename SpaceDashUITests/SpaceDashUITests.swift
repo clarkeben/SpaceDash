@@ -58,6 +58,20 @@ class SpaceXUITests: XCTestCase {
         }
     }
     
+    /// Tests the Button title of every button present in scroll view that will help in calling appropriate API Endpoint
+    func testButtonTitleSegue() throws {
+        
+        let app = XCUIApplication()
+        let elementsQuery = app.scrollViews.otherElements
+        
+        XCTAssert(elementsQuery.buttons["rockets"].exists)
+        XCTAssert(elementsQuery.buttons["launches"].exists)
+        XCTAssert(elementsQuery.buttons["landpads"].exists)
+        XCTAssert(elementsQuery.buttons["ships"].exists)
+        XCTAssert(elementsQuery.buttons["capsules"].exists)
+        XCTAssert(elementsQuery.buttons["launchpads"].exists)
+    }
+    
     func testTentativePopup() throws {
         
         let app = XCUIApplication()
@@ -86,6 +100,11 @@ class SpaceXUITests: XCTestCase {
             XCTAssertTrue(aboutSpaceDashDesc.exists)
             XCTAssertTrue(aboutSpaceDashTitle.exists)
         }
+        
+    
+        XCTAssert(app/*@START_MENU_TOKEN@*/.staticTexts["Change App Icon"]/*[[".buttons[\"Change App Icon\"].staticTexts[\"Change App Icon\"]",".staticTexts[\"Change App Icon\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
+        XCTAssert(app/*@START_MENU_TOKEN@*/.staticTexts["Privacy Policy"]/*[[".buttons[\"Privacy Policy\"].staticTexts[\"Privacy Policy\"]",".staticTexts[\"Privacy Policy\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
+        
         
     }
 }
