@@ -1,9 +1,13 @@
-
-
+![Version](https://img.shields.io/badge/iOS-13.0%2B-blueviolet)
 [![CD](https://github.com/pushpinderpalsingh/SpaceDash/workflows/CD/badge.svg?)](https://github.com/pushpinderpalsingh/SpaceDash/workflows/CD/badge.svg?branch=master)  [![CI](https://github.com/pushpinderpalsingh/SpaceDash/workflows/CI/badge.svg)](https://github.com/pushpinderpalsingh/SpaceDash/workflows/CI/badge.svg) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+[![Slack](https://img.shields.io/badge/Slack-black.svg?style=for-the-badge&logo=slack)](https://communityinviter.com/apps/spacedashworkspace/spacedash)
+[![Notion](https://img.shields.io/badge/Notion-grey.svg?style=for-the-badge&logo=notion)](https://www.notion.so/SpaceDash-193ad11fe7d54131b6dd0d34be6698f3)
+[![Twitter](https://img.shields.io/badge/Twitter-skyblue.svg?style=for-the-badge&logo=twitter)](https://twitter.com/get_dash)
+[![Testflight](https://img.shields.io/badge/Testflight-blue.svg?style=for-the-badge)](https://testflight.apple.com/join/voEgmLv8)
+[![App Store](https://img.shields.io/badge/App%20Store-Coming%20Soon-orange.svg?style=for-the-badge)](https://testflight.apple.com/join/voEgmLv8)
 # [](https://github.com/pushpinderpalsingh/SpaceDash#spacedash)SpaceDash
 
 ### [](https://github.com/pushpinderpalsingh/SpaceDash#a-dashboard-for-space)A Dashboard for Space...🚀🚀🚀 
@@ -14,8 +18,9 @@ The app is currently in the second stage of development and several new features
 
 The project uses test-drive agile development processes, where requirements are turned into test cases, and code is improved upon. 
 
-| <a    href="https://apps.apple.com/us/app/space-dash/id1527766640?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1600041600&h=35302a3e940c9995849289c13729e5a5" alt="Download on the App Store" style="border-radius: 13px; width:   250px; height: 83px;"></a> | <img    src="https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/c77cd612d8090dd2b1b7fdee3c045534/b2b8aed6-a678-440e-af64-8b915798073f.png" width="30%">|  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--
+***Notice***
+
+Currently, new version was not accepted by the App Store review team. Since there was recent update to the r/SpaceX API which caused our app to crash on launch and no way to update our App I removed it from the App Store as of now. The team is working to add functionality to the app which will become Version 2 of the app. Version 2 of the will be available in early to mid January. To still use and test the app, you can use the beta version using Testflight link above.
 
 ## 📸 Screenshots
 
@@ -27,10 +32,9 @@ The project uses test-drive agile development processes, where requirements are 
 
 ## 👾 Technologies
 > To help scale development, this app is built using the MVC design pattern. subsequent changes made by contributors do not affect the central architecture.
-* Fetches and renders JSON from the SpaceX API
-* Intuitive error handling
-* Animations via the Lottie framework
-* Unit testing using XCTests framework
+* UIKit
+* XCTests
+* Lottie
 
 
 ## ⚙️ [](https://github.com/pushpinderpalsingh/SpaceDash#getting-started-for-development) Getting Started
@@ -71,7 +75,8 @@ Click through buttons you can find and see where they take you. Explore the app 
 This project is licensed under the MIT License - see [LICENSE.md](https://github.com/pushpinderpalsingh/SpaceDash/blob/develop/LICENSE.md) for details
 
 ## Acknowledgement
--  A huge shoutout to SpaceX for their [API](https://github.com/r-spacex/SpaceX-API)
+- [RocketLaunch.Live](https://www.rocketlaunch.live/)
+- [r/SpaceX API](https://github.com/r-spacex/SpaceX-API)
 
 #### This project won't be possible without our contributors. You may see [Contributors.md](https://github.com/pushpinderpalsingh/SpaceDash/blob/develop/Contributors.md) for details.
 
